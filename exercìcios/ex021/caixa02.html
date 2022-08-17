@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+           padding-left: 4px;
+           box-shadow:  2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        h1 {
+            
+            text-shadow: 1px 2px 3px black;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: rgb(126, 122, 122);
+        }
+
+        nav {
+            background-color: rgb(29, 28, 28);
+            padding: 5px;
+            box-shadow: 5px 3px 7px 1px black;
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            padding-left: 4px;
+            color:white;
+            font-weight: bold;
+            margin-right: 30px;
+
+            text-shadow:2px 2px 2px black;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline white;
+
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius:   10px  0px 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            
+        }
+        
+        article > aside {
+            background-color: rgb(165, 165, 165);
+
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div{
+            display: inline-block;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: inset 20px 0px 20px 20px black;
+        }
+
+        div#bol  {
+            height: 90px;
+            width: 90px;
+            margin-left: 5px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: inset 20px 0px 20px 20px  rgb(75, 75, 13);
+
+        }
+
+        div#bols {
+            height: 80px;
+            width: 80px;
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: inset 20px 0px 20px 20px rgb(92, 9, 9);
+        }
+
+        div#bole {
+            height: 70px;
+            width: 70px;
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: inset 20px 0px 20px 20px rgb(117, 42, 14);
+        }
+
+        div#bom {
+            height: 60px;
+            width: 60px;
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: inset 20px 0px 20px 20px rgb(10, 71, 10);
+        }
+
+        div#box {
+            height: 50px;
+            width: 50px;
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: inset 20px 0px 20px 15px rgb(13, 13, 114);
+        }
+
+        div#bota {
+            height: 40px;
+            width: 40px;
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: inset 15px 0px 20px 10px grey;
+            
+        }
+        div#bota {
+            position: relative  ;
+            top: -29px;
+            
+        }
+        div#bol {
+            position: relative  ;
+            top: -3px;
+            
+        }
+        div#bols{
+            position: relative  ;
+            top: -6px;
+            
+        }
+        div#bole {
+            position: relative  ;
+            top: -8px;
+            
+        }
+        div#bom {
+            position: relative  ;
+            top: -11px;
+            
+        }
+        div#box {
+            position: relative  ;
+            top: -13px;
+            
+        }
+
+        div#bota {
+            position: relative  ;
+            top: -18px;
+            
+        }
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+              <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+             <article>
+                  <h2>Noticia sobre o Brasil</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque natus quisquam, tempora, reiciendis soluta eligendi voluptas consequatur impedit doloribus quibusdam velit tempore quaerat ullam, pariatur id ratione hic laborum optio!</p>
+                      <aside>
+                          <p>Artigo desenvolvido por José da Silva</p>
+                      </aside>
+                  
+             </article>
+             <article>
+
+             </article>
+        </section> 
+    </main>
+    <footer>
+         <p>Desenvolvido pelo Curso em Video</p>
+    </footer>
+    <div id="bola"></div>
+    <div id="bol"></div>
+    <div id="bols"></div>
+    <div id="bole"></div>
+    <div id="bom"></div>
+    <div id="box"></div>
+    <div id="bota"></div>
+    <div id="bosa h"></div>
+    <div id="bosk i"></div>
+    <div id="bordo j"></div>
+</body>
+</html>
